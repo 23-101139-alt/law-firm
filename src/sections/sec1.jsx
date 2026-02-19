@@ -1,6 +1,11 @@
 import React from 'react';
 import '../sections/sec1.css'
 import CTA from '../components/common/cta';
+import img3 from '../assets/pic3.png'
+import img4 from '../assets/pic4.png'
+import img5 from '../assets/pic5.png'
+import img6 from '../assets/pic6.png'
+import img7 from '../assets/pic7.png'
 
 const Sec1 = () => {
     return ( 
@@ -17,6 +22,24 @@ const Sec1 = () => {
                               on protecting your rights.</p>
                         <CTA />
                     </article>
+                    <figure className='img-container-sec2' >
+                        <img className='img-sec1' src={img3} alt='pic'></img>
+                        <div className='img-container-sec1'></div>
+                    </figure>
+
+                    <article className='box-sub3-sec1'>
+                        <p className='para-sub-box3'>Partners With Us — Protecting Your
+                             Rights, Every Step of the Way.</p>
+                        <figure className='imgs-cont'>
+                            <img className='profilee' src={img4} alt='profile'></img>
+                             <img className='profilee' src={img5} alt='profile'></img>
+                              <img className='profilee' src={img6} alt='profile'></img>
+                              <img src={img7} alt='profile'></img>
+                        </figure>
+                    </article>
+
+
+
                 </article>
 
             </article>
