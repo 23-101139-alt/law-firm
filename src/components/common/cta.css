@@ -1,0 +1,19 @@
+.ctaa{display: flex;
+width: 255px;
+height: 56px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--cta);
+border-color: transparent;
+box-shadow: -4px 4px 4px 0 var(--ctashadow);
+color: var(--white);
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;cursor: pointer;
+font-weight: 700;
+transition: all 90ms linear;}
+
+.ctaa:hover{background-color: #15596b;}

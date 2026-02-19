@@ -2,7 +2,8 @@
 background-color: var(--header);
 padding: 0 7.9%;
 display: flex;
-flex-direction: row;position: relative;
+flex-direction: row;position: fixed;
+z-index: 1111;
 align-items: center;}
 
 .list-nav-header{display: flex;
