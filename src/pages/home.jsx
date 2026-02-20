@@ -4,6 +4,7 @@ import Headerr from '../components/layout/header';
 import Sec1 from '../sections/sec1';
 import Sec2 from '../sections/sec2';
 import Sec3 from '../sections/sec3';
+import Sec4 from '../sections/sec4';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Sec1 />
             <Sec2 />
             <Sec3 />
+            <Sec4 />
         </main>
         </>
      );

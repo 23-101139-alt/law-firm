@@ -1,0 +1,36 @@
+.sec4{
+    width: 100%;
+    padding: 158px 7.9%;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;}
+
+.container-sec4{max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+gap: 87px;}
+
+.title-container-sec4{width: 608.56px;}
+
+.faqs-big-container-sec4{display: flex;
+flex-direction: column;
+gap: 26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

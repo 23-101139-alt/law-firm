@@ -1,0 +1,42 @@
+.faqbox{display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+justify-content: center;
+}
+
+.subbox-faqs{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;}
+
+
+.question{color: var(--text);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;}
+
+.img-container-sec4{display: inline-flex;
+height: 46.551px;
+padding: 9px;
+justify-content: center;
+align-items: center;
+gap: 10px;}
+
+.line-faqs{height: 2px;
+    background-color: var(--faqline);
+width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
