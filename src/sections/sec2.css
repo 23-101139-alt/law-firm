@@ -53,7 +53,7 @@ line-height: 140%; /* 25.2px */}
 
 .icons-part{display: flex;
 flex-direction: column;
-gap: 26px;}
+gap: 20px;}
 
 .img-part-sec2{width: 52%;
 position: relative;
@@ -95,9 +95,9 @@ font-weight: 400;
 
 
 @media (max-height: 700px) and (min-height: 630px) {
-    .sec2 {
+    /* .sec2 {
     width: 100%;
-    padding: 50px 7.9%;}
+    padding: 50px 7.9%;} */
 .left-box-sec2 {
     gap: 59px;}
 .icons-part {
