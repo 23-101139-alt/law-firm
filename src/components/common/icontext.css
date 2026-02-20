@@ -31,3 +31,19 @@ font-weight: 400;
 line-height: normal;}
 
 
+
+/* Mobile screen */
+@media(max-width: 501px) {
+    .icon-container{width: 64px;
+height: 64px;}
+
+.para-icon {
+    color: var(--parag);
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.iconcontainer-sec2 {
+
+    gap: 15px;}
+
+}
