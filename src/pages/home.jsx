@@ -3,6 +3,7 @@ import './home.css'
 import Headerr from '../components/layout/header';
 import Sec1 from '../sections/sec1';
 import Sec2 from '../sections/sec2';
+import Sec3 from '../sections/sec3';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <main>
             <Sec1 />
             <Sec2 />
+            <Sec3 />
         </main>
         </>
      );

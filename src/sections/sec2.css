@@ -94,6 +94,16 @@ font-weight: 400;
 .imgg-sec2{width: 100%;position: relative;}
 
 
+@media (max-height: 700px) and (min-height: 630px) {
+    .sec2 {
+    width: 100%;
+    padding: 50px 7.9%;}
+.left-box-sec2 {
+    gap: 59px;}
+.icons-part {
+    gap: 14px;}
+
+}
 
 
 /* Mobile screen */
