@@ -3,7 +3,7 @@ import '../common/cta.css'
 
 const CTA = (props) => {
     return ( 
-        <button className='ctaa'>
+        <button className='ctaa' type='props.type'>
            {props.title}
         </button>
      );

@@ -19,6 +19,10 @@
   --paragwhite: rgba(255, 255, 255, 0.74);
   --faqline: #595F61;
   --form: #595F61;
+  --error: #721c24;
+  --errorbackground:#f8d7da;
+  --success:#155724;
+  --successbackground:#d4edda;
 
 
 
