@@ -5,6 +5,10 @@ import Icontext from '../components/common/icontext';
 import pic8 from '../assets/pic8.png'
 import pic9 from '../assets/pic9.png'
 import pic10 from '../assets/pic10.png'
+import pic11 from '../assets/pic11.png'
+
+
+
 
 const Sec2 = () => {
     return ( 
@@ -29,9 +33,17 @@ const Sec2 = () => {
                             <Icontext icon1={pic10} title='Client Commitment'
                             parag='Focused on your best outcome.'/>
                         </article>
-
-
                     </article>
+
+                    <figure className='img-part-sec2'>
+                        <img src={pic11} alt='picc' className='imgg-sec2'>
+                        </img>
+                        <article className='box-right-sec2'>
+                            <h1 className='header-sec2-right'>500+</h1>
+                            <p className='para-sec2-right'>Cases successfully handled 
+                                with dedication, precision, and strong legal strategy.</p>
+                        </article>
+                    </figure>
             </article>
         </section>
      );
