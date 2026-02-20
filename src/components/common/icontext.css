@@ -12,6 +12,12 @@ display: flex;
 justify-content: center;
 align-items: center;}
 
+.icon-container2{width: 72px;
+height: 72px;border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
 .text-part-column{display: flex;
 flex-direction: column;
     justify-content: center;
@@ -36,7 +42,8 @@ line-height: normal;}
 @media(max-width: 501px) {
     .icon-container{width: 64px;
 height: 64px;}
-
+    .icon-container2{width: 64px;
+height: 64px;}
 .para-icon {
     color: var(--parag);
     font-family: Montserrat;
