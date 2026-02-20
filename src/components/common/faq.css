@@ -21,6 +21,7 @@ line-height: normal;}
 height: 46.551px;
 padding: 9px;
 justify-content: center;
+cursor: pointer;
 align-items: center;
 gap: 10px;}
 
@@ -30,7 +31,12 @@ width: 100%;}
 
 
 
-
+.answer {
+  color: var(--parag);
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 140%;
+}
 
 
 
