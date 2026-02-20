@@ -194,12 +194,12 @@ width: 99%;
 
 
 .box2-sec1 {
-    height: fit-content;
-    display: flex;
-    gap: 25px;
-    flex-direction: column-reverse;
-    justify-content: center;
-    height: 338px;
+        height: fit-content;
+        display: flex;
+        gap: 17px;
+        flex-direction: column-reverse;
+        justify-content: start;
+        height: 338px;
 }
 
 .responsive-middle-part{display: none;
@@ -221,7 +221,7 @@ justify-content: center;display: flex;
     overflow: hidden;
     color: var(--parag);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -244,6 +244,16 @@ justify-content: center;display: flex;
 }
 .img2-container-sec1{
         width: 470.132px;display: block;}
+
+.para-sub-box3 {
+    color: var(--parag);
+    font-family: Montserrat;
+    font-size: 16px;}
+
+
+
+
+
 }
 
 

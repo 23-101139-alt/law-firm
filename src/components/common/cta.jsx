@@ -1,10 +1,10 @@
 import React from 'react';
 import '../common/cta.css'
 
-const CTA = () => {
+const CTA = (props) => {
     return ( 
         <button className='ctaa'>
-            Contact Us
+           {props.title}
         </button>
      );
 }

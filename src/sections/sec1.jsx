@@ -28,7 +28,7 @@ const Sec1 = () => {
                              with integrity, professionalism, and results—focused
                               on protecting your rights.</p>
                         <button className='cta-sec1'>
-                        <CTA />
+                        <CTA title='Contact Us' />
                         </button>
                     </article>
                     <figure className='img-container-sec2' >

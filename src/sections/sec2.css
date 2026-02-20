@@ -1,0 +1,50 @@
+.sec2{
+    width: 100%;
+    padding: 177.64px 7.9% 158px;
+    background-color: var( --background);
+    display: flex;
+    justify-content: center;
+}
+
+.container-sec2{
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    width: 100%;
+}
+.left-box-sec2{display: flex;
+flex-direction: column;
+gap: 83px;}
+
+.sub-left-box-sec2{display: flex;
+flex-direction: column;
+gap: 36px;}
+
+
+.bigtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.smalltitle{
+color: var( --smalltitle);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+}
+
+.big2title{
+color: var( --text);
+font-family: "Noto Serif";
+font-size: 40px;
+font-weight: 700;
+line-height: 140%; /* 56px */
+}
+
+.para-sec2{color: var(--parag);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 140%; /* 25.2px */}
