@@ -15,12 +15,21 @@ const Sec1 = () => {
                     <h1 className='header-sec1'>Justice Begins </h1>
                     <h1 className='header2-sec1'>With Us</h1>
                 </article>
+
+                <figure className='responsive-middle-part'>
+         <img className='img-sec2' src={img3} alt='pic'></img>
+          <div className='img2-container-sec1'></div>
+                </figure>
+
+
                 <article className='box2-sec1'>
                     <article className='subbox1-sec1'>
                         <p className='para1-sec1'>We provide trusted legal services
                              with integrity, professionalism, and results—focused
                               on protecting your rights.</p>
+                        <button className='cta-sec1'>
                         <CTA />
+                        </button>
                     </article>
                     <figure className='img-container-sec2' >
                         <img className='img-sec1' src={img3} alt='pic'></img>
