@@ -68,9 +68,8 @@ border-color: transparent;}
   background-color: var(--successbackground);
   color: var(--success);
   padding: 10px;
-  margin-bottom: 10px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 700px;
   text-align: center;
   font-family: Montserrat;
 font-size: 18px;
@@ -79,10 +78,26 @@ font-size: 18px;
 .error {
   background-color: var(--errorbackground);
   color: var(--error);
-  padding: 10px; margin-bottom: 10px;
+  padding: 10px; 
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 700px;
   text-align: center;
     font-family: Montserrat;
 font-size: 18px;
+}
+
+
+/* Mobile screen */
+@media(max-width: 501px) {
+    .error {
+font-size: 16px;
+}
+
+   .success  {
+font-size: 16px;
+}
+
+
+
+
 }
