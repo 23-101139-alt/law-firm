@@ -44,5 +44,23 @@ width: 100%;}
 
 
 
+/* Mobile screen */
+@media(max-width: 501px) {
+.question {
+    color: var(--text);
+    font-family: Montserrat;
+    font-size: 18px;}
+
+.answer {
+    color: var(--parag);
+    font-family: Montserrat;
+    font-size: 16px;}
+
+
+}
+
+
+
+
 
 

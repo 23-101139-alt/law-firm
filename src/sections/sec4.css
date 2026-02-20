@@ -20,7 +20,33 @@ gap: 26px;}
 
 
 
+/* Mobile screen */
+@media(max-width: 501px) {
+        .sec4 {
+        padding: 150px 20px;
+    }
+.title-container-sec4 {
+    width: 100%;
+}
 
+
+
+}
+
+
+
+/* Tablet screen */
+@media (min-width: 501px) and (max-width: 900px) {
+    .sec4 {
+        padding: 155px 7.3%;
+    }
+
+.title-container-sec4 {
+    width: 100%;
+}
+
+
+}
 
 
 
