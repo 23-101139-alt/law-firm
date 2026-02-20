@@ -53,7 +53,7 @@ line-height: 140%; /* 25.2px */}
 
 .icons-part{display: flex;
 flex-direction: column;
-gap: 20px;}
+gap: 24px;}
 
 .img-part-sec2{width: 52%;
 position: relative;

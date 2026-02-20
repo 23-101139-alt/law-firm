@@ -25,7 +25,7 @@ cursor: pointer;
 align-items: center;
 gap: 10px;}
 
-.line-faqs{height: 2px;
+.line-faqs{height: 1px;
     background-color: var(--faqline);
 width: 100%;}
 
