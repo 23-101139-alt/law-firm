@@ -4,6 +4,8 @@ import logo from '../../assets/logo.png'
 import pic20 from '../../assets/pic20.png'
 import pic21 from '../../assets/pic21.png'
 import pic22 from '../../assets/pic22.png'
+import Listheader from '../common/biglisttext';
+import Navfooter from '../common/navfooter';
 
 
 const Footerr = () => {
@@ -27,9 +29,41 @@ const Footerr = () => {
                             </li>
                         </ul>
                     </article>
+
+                 <nav className='right-box-footer'>
+                    <nav className='list1-footer'>
+                                            <Listheader title='Quick Links'/>
+                            <ul className='list-footerr'>
+                                <Navfooter title='Home' />
+                                <Navfooter title='About Us' />
+                                <Navfooter title='Services' />
+                                <Navfooter title='FAQs' />
+                                <Navfooter title='Contact Us' />
+                            </ul>
+                    </nav>
+                    <nav className='list1-footer'>
+                                            <Listheader title='Legal'/>
+                            <ul className='list-footerr'>
+                                <Navfooter title='Terms & Conditions' />
+                                <Navfooter title='Cookies' />
+                                <Navfooter title='Privacy Policy' />
+                            
+                            </ul>
+                    </nav>
+
+                   
                 </nav>
 
+
+
+                </nav>
+
+
             </nav>
+
+            <div className='last-part-footer'>
+                <h4 className='smalltext'>@2026,UnityLegal,AllRightsReservedbyUnityLegal</h4>
+            </div>
         </footer>
      );
 }

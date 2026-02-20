@@ -1,0 +1,40 @@
+.list-nav-footer {
+  color: var(--text);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;   
+  display: inline-block;   
+  cursor: pointer;
+  width: fit-content;
+}
+
+.list-nav-footer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;             
+  width: 0;                   
+  background-color: var(--text); 
+  transition: width 0.3s ease;
+}
+
+.list-nav-footer:hover::after {
+  width: 100%;                 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
