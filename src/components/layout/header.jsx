@@ -16,7 +16,7 @@ const Headerr = () => {
     document.body.classList.toggle('darkmode', !darkMode);
   };
 
-
+const [active, setActive] = useState("sec1");
 
 
 
@@ -25,18 +25,47 @@ const Headerr = () => {
             <nav className='nav-headerr'>
                 <img src={logo} alt='logo'className='logoo' ></img>
                 <ul className='list-nav-header'>
-                    <Navheader title='Home' href="#sec1"  />
-                    <Navheader title='About Us' href="#sec2"    />
-                    <Navheader title='Services' href="#sec3"   />
-                    <Navheader title='FAQs'href="#sec4"   />
-                    <Navheader title='Contact Us'href="#sec5"   />
+                <Navheader 
+                title='Home' 
+                href="#sec1" 
+                active={active === "sec1"} 
+                onClick={() => setActive("sec1")} 
+                />
+
+                <Navheader 
+                title='About Us' 
+                href="#sec2" 
+                active={active === "sec2"} 
+                onClick={() => setActive("sec2")} 
+                />
+
+                <Navheader 
+                title='Services' 
+                href="#sec3" 
+                active={active === "sec3"} 
+                onClick={() => setActive("sec3")} 
+                />
+
+                <Navheader 
+                title='FAQs' 
+                href="#sec4" 
+                active={active === "sec4"} 
+                onClick={() => setActive("sec4")} 
+                />
+
+                <Navheader 
+                title='Contact Us' 
+                href="#sec5" 
+                active={active === "sec5"} 
+                onClick={() => setActive("sec5")} 
+                />
                    <button className='themecta' onClick={toggleTheme}>
                         <img className='theme-imgg' src={pic1} alt ='theme' ></img>
                     </button>
                 </ul>
 
                 <nav className='burgermenucontainer'>
-                    <img src={pic2} alt='burger menu'onClick={() => {
+                    <img className='burgermeu' src={pic2} alt='burger menu'onClick={() => {
                         const dropdown = document.querySelector('.list-nav-header2');
                         dropdown.classList.toggle('show');
                     }}></img>

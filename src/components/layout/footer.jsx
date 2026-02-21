@@ -22,7 +22,7 @@ const Footerr = () => {
                             </li>
 
                             <li>
-                                <img src={pic21} alt='x' className='socialmedia-icons'></img>
+                                <img src={pic21} alt='x' className='socialmedia-iconsx'></img>
                             </li>
                             <li>
                                 <img src={pic22} alt='facebook' className='socialmedia-icons'></img>

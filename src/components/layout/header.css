@@ -75,13 +75,31 @@ right: 0;display: none;
     top: 100px;
 list-style-type: none;
 background-color: var(--header);
-padding: 20px;}
+padding: 20px;
+    box-shadow: 0 2px 2px 2px var(--hedaer-shadow);
+    border-radius: 0px 0px 9px 9px;}
 
 
 .list-nav-header2.show {
   display: flex;
   flex-direction: column;
 }
+.navheaderr {
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.navheaderr.active {
+ text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: 19%; /* 3.42px */
+text-underline-position: from-font;
+}
+
+.burgermeu{display: block;}
+
 
 
 @media (max-height: 887px) and (min-height: 630px) {

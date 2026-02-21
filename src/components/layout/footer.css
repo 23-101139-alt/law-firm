@@ -38,7 +38,7 @@ list-style-type: none;
 align-items: center;}
 
 .socialmedia-icons{cursor: pointer;}
-
+.socialmedia-iconsx{cursor: pointer;}
 .right-box-footer{
     display: flex;
     flex-direction: row;

@@ -36,7 +36,7 @@
    --header: #1E293B;;;
    --hedaer-shadow: rgba(202, 178, 178, 0.25);
    --text: #FFF;;
-   --headercta: #FBFCFF;
+   --headercta: #e2dfde;;
    --cta: #3B82F6;;
    --ctahover: #2563EB;
    --background:#0F172A;;
@@ -83,6 +83,15 @@
 
 .darkmode .add-imgggg{
     content: url('../assets/pic24.png'); 
+}
+
+
+.darkmode .burgermeu{
+   filter: invert(100%);
+}
+
+.darkmode .socialmedia-iconsx{
+     filter: invert(100%);
 }
 
 *{margin: 0;

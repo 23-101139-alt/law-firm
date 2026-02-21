@@ -48,20 +48,8 @@ width: 50%;}
     width: 100%;
     gap: 87px;
 }
-.form-title {
-    font-size: 24px;}
 
-.input-name {
-    font-size: 20px;}
-.input-form {
-    font-size: 16px;}
-.textareaa {
-    font-size: 16px;}
-.form {
-    display: flex;
-    width: 100%;
-    height: fit-content !important;
-    padding: 24px 20px !important}
+
 
 }
 
