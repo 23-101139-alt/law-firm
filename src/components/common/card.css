@@ -9,9 +9,9 @@ border-radius: 15px;
  overflow: hidden; 
  cursor: pointer;
 background: var(--background);
-    box-shadow: 0 2px 2px 2px var(--shadoww);
+    box-shadow: 0 1px 8px 0 var(--hedaer-shadow);
   flex: 1 1 280px; 
-  min-width: 280px; 
+  min-width: 335px; 
 }
 
 .header-title-sec3{color: var(--text);

@@ -16,3 +16,25 @@ z-index: 11111;
 right: 7.9%;
 cursor: pointer;
 }
+
+/* Mobile screen */
+@media(max-width: 501px) {
+        .fixedcta{
+right: 20px;
+bottom: 130px;}
+}
+
+
+/* Tablet screen */
+@media (min-width: 501px) and (max-width: 900px) {
+    .fixedcta{
+right: 7.3%;}
+}
+
+
+
+
+
+
+
+

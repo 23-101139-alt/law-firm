@@ -93,7 +93,7 @@ font-weight: 400;
 
 .imgg-sec2{width: 100%;position: relative;
 border-radius: 38px;
-    box-shadow: 0 0 1px 2px var(--hedaer-shadow);}
+    box-shadow: 0 1px 18px 0 var(--hedaer-shadow);}
 
 
 @media (max-height: 700px) and (min-height: 630px) {
