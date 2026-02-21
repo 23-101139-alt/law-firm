@@ -9,7 +9,7 @@ import img7 from '../assets/pic7.png'
 
 const Sec1 = () => {
     return ( 
-        <section className='sec1'>
+        <section className='sec1' id='sec1'>
             <article className='container-sec1'>
                 <article className='box-one-sec1'>
                     <h1 className='header-sec1'>Justice Begins </h1>

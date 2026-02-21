@@ -4,7 +4,16 @@ import './navfooter.css'
 
 const Navfooter = (props) => {
     return ( 
-        <li className='list-nav-footer'>{props.title}</li>
+        <li >
+            <a className='list-nav-footer'  href={props.href}   onClick={props.onClick}  >{props.title} </a>
+            </li>
+
+
+
+
+
+
+
      );
 }
  

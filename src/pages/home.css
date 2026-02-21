@@ -23,7 +23,8 @@
   --errorbackground:#f8d7da;
   --success:#155724;
   --successbackground:#d4edda;
-
+  --fixedcta:#274156;
+  --fixedctaborder:#FFF;
 
 
 }
@@ -33,7 +34,9 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;}
-
+html {
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }

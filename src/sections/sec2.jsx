@@ -12,7 +12,7 @@ import pic11 from '../assets/pic11.png'
 
 const Sec2 = () => {
     return ( 
-        <section className='sec2'>
+        <section className='sec2' id='sec2'>
             <article className='container-sec2'>
                     <article className='left-box-sec2'>
                         <article className='sub-left-box-sec2'>

@@ -10,7 +10,7 @@ import CTA from '../components/common/cta';
 const Sec3 = () => {
     return ( 
 
-        <section className='sec3'>
+        <section className='sec3'  id='sec3'>
             <article className='container-sec3'>
                  <Titlesection  stylee= 'bigtitle2' 
                 stylee2='smalltitle2'

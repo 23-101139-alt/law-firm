@@ -12,7 +12,7 @@ import Formm from '../components/common/form';
 
 const Sec5 = () => {
     return ( 
-        <section className='sec5'>
+        <section className='sec5'  id='sec5'>
             <article className='container-sec5'>
                 <article className='left-box-sec5'>
                     <Titlesection stylee= 'bigtitle' stylee2='smalltitle'

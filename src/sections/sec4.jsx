@@ -6,7 +6,7 @@ import FAQss from '../components/common/faq';
 
 const Sec4 = () => {
     return ( 
-        <section className='sec4'>
+        <section className='sec4'  id='sec4'>
             <article className='container-sec4'>
                 <article className='title-container-sec4'>
                     <Titlesection stylee= 'bigtitle' stylee2='smalltitle'

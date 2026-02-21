@@ -34,11 +34,11 @@ const Footerr = () => {
                     <nav className='list1-footer'>
                                             <Listheader title='Quick Links'/>
                             <ul className='list-footerr'>
-                                <Navfooter title='Home' />
-                                <Navfooter title='About Us' />
-                                <Navfooter title='Services' />
-                                <Navfooter title='FAQs' />
-                                <Navfooter title='Contact Us' />
+                                <Navfooter title='Home' href="#sec1"  />
+                                <Navfooter title='About Us'href="#sec2"  />
+                                <Navfooter title='Services' href="#sec3" />
+                                <Navfooter title='FAQs' href="#sec4"  />
+                                <Navfooter title='Contact Us' href="#sec5"  />
                             </ul>
                     </nav>
                     <nav className='list1-footer'>

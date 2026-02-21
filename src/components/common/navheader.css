@@ -1,0 +1,13 @@
+.navheaderr{color: var(--text);
+    position: relative;
+font-family: Montserrat;
+cursor: pointer;
+font-size: 18px;
+text-decoration: none;
+font-weight: 500;
+line-height: 120%; /* 21.6px */
+}
+.navheaderr:hover::after {
+  width: 100%;
+}
+
