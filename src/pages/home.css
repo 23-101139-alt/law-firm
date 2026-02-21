@@ -109,6 +109,6 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--design);
+  background: var(--desig);
   border-radius: 10px;
 }
