@@ -91,7 +91,9 @@ font-size: 18px;
 font-weight: 400;
 }
 
-.imgg-sec2{width: 100%;position: relative;}
+.imgg-sec2{width: 100%;position: relative;
+border-radius: 38px;
+    box-shadow: 0 0 1px 2px var(--hedaer-shadow);}
 
 
 @media (max-height: 700px) and (min-height: 630px) {

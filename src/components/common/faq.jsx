@@ -14,7 +14,7 @@ const FAQss = (props) => {
             <article className='subbox-faqs'>
                 <h2 className='question'>{props.title}</h2>
                 <figure className='img-container-sec4'>
-                    <img src={pic15} alt='add'
+                    <img src={pic15} alt='add' className='add-imgggg'
                      onClick={() => setOpen(!open)} ></img>
                 </figure>
             </article>

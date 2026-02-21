@@ -43,7 +43,7 @@ const Sec1 = () => {
                             <img className='profilee' src={img4} alt='profile'></img>
                              <img className='profilee' src={img5} alt='profile'></img>
                               <img className='profilee' src={img6} alt='profile'></img>
-                              <img src={img7} alt='profile'></img>
+                              <img className='pluss-img' src={img7} alt='profile'></img>
                         </figure>
                     </article>
 

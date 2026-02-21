@@ -36,6 +36,7 @@ line-height: 140%; /* 33.6px */}
     border: 1px solid var(--form);
     padding: 0 15px;;color: var(--text);
 font-family: Montserrat;font-weight: 400;
+    background-color: transparent;
 font-size: 18px;}
 
 .input-form:focus {
@@ -49,6 +50,7 @@ font-size: 18px;}
     padding: 15px;
 border: 1px solid  var(--form);
 ;color: var(--text);
+background-color: transparent;
 font-family: Montserrat;font-weight: 400;
 font-size: 18px;}
 

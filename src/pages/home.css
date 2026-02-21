@@ -25,11 +25,65 @@
   --successbackground:#d4edda;
   --fixedcta:#274156;
   --fixedctaborder:#FFF;
-
+  --shadoww:rgba(0, 0, 0, 0.06);
 
 }
 
 
+
+.darkmode{
+
+   --header: #1E293B;;;
+   --hedaer-shadow: rgba(202, 178, 178, 0.25);
+   --text: #FFF;;
+   --headercta: #FBFCFF;
+   --cta: #3B82F6;;
+   --ctahover: #2563EB;
+   --background:#0F172A;;
+   --parag:#D2D3D4;;
+   --ctashadow:rgba(202, 178, 178, 0.25);
+   --white:#FFF;
+   --bluryeffect:rgb(225 231 242 / 38%);;
+   --profilestrok:#FFF;;
+    --design:#3B82F6;;
+    --smalltitle: #3B82F6;;
+    --design2:  #3A5B78;;
+    --border-box-sec2: rgba(28, 110, 140, 0.00);
+    --border-box2-sec2: rgba(28, 110, 140, 0.00);
+    --paragwhite: rgba(255, 255, 255, 0.74);
+    --faqline: #595F61;
+    --form: #FFF;;
+      --error: #721c24;
+    --errorbackground:#f8d7da;
+    --success:#155724;
+    --successbackground:#d4edda;
+      --fixedcta:#3A5B78;;
+  --fixedctaborder:#FFF;
+  --shadoww:rgb(202 178 178 / 5%);
+    
+
+}
+
+.darkmode .logoo {
+  filter: invert(100%);
+}
+
+.darkmode .logo-footer {
+  filter: invert(100%);
+}
+
+.darkmode .pluss-img{
+   content: url('../assets/pic24.png'); 
+}
+
+
+.darkmode .theme-imgg{
+   content: url('../assets/pic25.png'); 
+}
+
+.darkmode .add-imgggg{
+    content: url('../assets/pic24.png'); 
+}
 
 *{margin: 0;
 padding: 0;

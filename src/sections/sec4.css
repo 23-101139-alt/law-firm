@@ -1,6 +1,6 @@
 .sec4{
     width: 100%;
-    padding: 158px 7.9%;
+    padding: 158px 7.9% 79px;
     background-color: var(--background);
     display: flex;
     justify-content: center;}
@@ -23,7 +23,7 @@ gap: 26px;}
 /* Mobile screen */
 @media(max-width: 501px) {
         .sec4 {
-        padding: 150px 20px;
+        padding: 150px 20px 75px;
     }
 .title-container-sec4 {
     width: 100%;
@@ -38,7 +38,7 @@ gap: 26px;}
 /* Tablet screen */
 @media (min-width: 501px) and (max-width: 900px) {
     .sec4 {
-        padding: 155px 7.3%;
+        padding: 155px 7.3% 77px;
     }
 
 .title-container-sec4 {

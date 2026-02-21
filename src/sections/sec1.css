@@ -75,7 +75,8 @@ width: 99%;
     align-self: center;
 }
 
-.cta-sec1{width: 255px;        border-color: transparent;}
+.cta-sec1{width: 255px;        border-width: 0;
+    border-radius: 8px;    border-color: transparent;}
 .box-sub3-sec1{display: flex;
 width: 262.799px;
 flex-direction: column;
@@ -137,7 +138,7 @@ width: 99%;
 }
 
 
-
+.pluss-img{display: block;}
 
 
 

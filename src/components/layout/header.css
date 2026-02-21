@@ -28,7 +28,7 @@ line-height: 120%; /* 21.6px */
   width: 100%;
 }
 
-
+.logoo{display: block;}
 
 
 
@@ -49,7 +49,7 @@ border-radius: 20.455px;
 border-color: transparent;
 background: var(--headercta);}
 
-
+.theme-imgg{display: block;}
 
 .nav-headerr{display: flex;
 flex-direction: row;width: 100%;
